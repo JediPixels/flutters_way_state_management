@@ -108,6 +108,14 @@ class IdeasValueNotifier extends ValueNotifier<IdeaCount> {
     notifyListeners();
   }
 }
+
+// Child Widget
+ValueListenableBuilder(
+  valueListenable: _ideasValueNotifier.value.numberOfIdeas,
+  builder: (BuildContext context, int value, Widget child) {
+    return Text('Ideas: $value');
+  },
+),
 ```
 
 ## How it Works
