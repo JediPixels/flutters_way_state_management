@@ -111,9 +111,9 @@ class IdeasValueNotifier extends ValueNotifier<IdeaCount> {
 ```
 
 ## How it Works
-  • InheritedWidget – The InheritedWidget is great to pass data from an ancestor widget to descendent widget. The InheritedWidget is immutable and the data (attributes) are final (cannot change) and the Flutter framework rebuilds the InheritedWidget to refresh with new data.
-  • InheritedModel - The InheritedModel selectively rebuild individual widgets for performance. Use the of() method to access the InheritedModel from child widgets. The updateShouldNotify() and updatedShouldNotifyDependent() methods to notify (via Flutter framework) widgets to selectively rebuild if the data changed by individual field.
-  • ValueNotifier and ValueListenableBuilder - The ValueNotifier and ValueListenableBuilderallow to selectively rebuild individual widgets for performance. Use fields to contain data defining them as ValueNotifier. Use methods to modify data and call the notifyListeners() method. Use the ValueListenableBuilder widget in the widget tree to rebuild widgets selectively if the data changed by individual field.
+- InheritedWidget – The InheritedWidget is great to pass data from an ancestor widget to descendent widget. The InheritedWidget is immutable and the data (attributes) are final (cannot change) and the Flutter framework rebuilds the InheritedWidget to refresh with new data.
+- InheritedModel - The InheritedModel selectively rebuild individual widgets for performance. Use the of() method to access the InheritedModel from child widgets. The updateShouldNotify() and updatedShouldNotifyDependent() methods to notify (via Flutter framework) widgets to selectively rebuild if the data changed by individual field.
+- ValueNotifier and ValueListenableBuilder - The ValueNotifier and ValueListenableBuilderallow to selectively rebuild individual widgets for performance. Use fields to contain data defining them as ValueNotifier. Use methods to modify data and call the notifyListeners() method. Use the ValueListenableBuilder widget in the widget tree to rebuild widgets selectively if the data changed by individual field.
 
 
 ## [License: MIT](LICENSE.md)
