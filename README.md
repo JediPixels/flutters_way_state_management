@@ -8,11 +8,11 @@ Flutter's Way State Management by using built-in Flutter classes.
 
 ![](readmeassets/state-management-active.gif)
 
-## What is covered
+## What is Covered
 In this project, you are going to take a look at:
-• How to use InheritedWidget to pass data from a parent (ancestor) widget to child (descendant) widgets in the widget tree
-• How to use InheritedModel to selectively rebuild individual widgets for performance
-• How to use ValueNotifier and ValueListenableBuilder to selectively rebuild individual widgets for performance
+- How to use InheritedWidget to pass data from a parent (ancestor) widget to child (descendant) widgets in the widget tree
+- How to use InheritedModel to selectively rebuild individual widgets for performance
+- How to use ValueNotifier and ValueListenableBuilder to selectively rebuild individual widgets for performance
 
 ## InheritedWidget
   The `InheritedWidget` is immutable and allows child widgets to access data (state) above in the widget tree
